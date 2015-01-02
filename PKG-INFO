@@ -1,0 +1,48 @@
+Metadata-Version: 1.1
+Name: trytond_accounting_uk
+Version: 3.2.0
+Summary: Tryton module for UK accounting (not chart of accounts)
+Home-page: https://github.com/lampmantech/trytond_accounting_uk
+Author: Lampman Tech
+Author-email: UNKNOWN
+License: GPL-3
+Download-URL: 
+Description: trytond_accounting_uk
+        ==================
+        
+        The accounting_uk module for the Tryton application platform.
+        
+        Installing
+        ----------
+        
+        See INSTALL
+        
+        License
+        -------
+        
+        See LICENSE
+        
+        Copyright
+        ---------
+        
+        See COPYRIGHT
+        
+        
+        For more information please visit the web site:
+        
+          https://github.com/lampmantech/trytond_accounting_uk
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Legal Industry
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial :: Accounting

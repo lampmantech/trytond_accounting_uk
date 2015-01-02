@@ -1,0 +1,10 @@
+2015-01-02  lampman Tech  <lampmantech@github.com>
+
+	* currency_GBP_hmrc.xml:
+	Average year rates from HMRC; see:
+	http://www.hmrc.gov.uk/exrate/
+        http://www.hmrc.gov.uk/exrate/yearly_rates.htm
+	Copies are in data/
+	
+
+

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+	<!-- Average year rates from HMRC; see: -->
+	<!-- http://www.hmrc.gov.uk/exrate/ -->
+        <!-- http://www.hmrc.gov.uk/exrate/yearly_rates.htm -->
+	<!-- FixMe: Delete the existing rate for these currencies -->
+
+	<!-- morons: this should be the default instead of false data
+        <record id="gbp1970" model="currency.currency.rate">
+            <field name="rate">1.000000</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'GBP')]"/>
+            <field name="date">1970-01-01</field>
+            </record>
+	 -->
+
+	<!-- 2006 -->
+        <record id="gbp2006CAD" model="currency.currency.rate">
+            <field name="rate">2.0901</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">2005-12-31</field>
+        </record>
+        <record id="gbp2006EUR" model="currency.currency.rate">
+            <field name="rate">1.4666</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2005-12-31</field>
+        </record>
+        <record id="gbp2006USD" model="currency.currency.rate">
+            <field name="rate">1.8424</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2005-12-31</field>
+        </record>
+	<!-- 2007 -->
+        <record id="gbp2007CAD" model="currency.currency.rate">
+            <field name="rate">2.1484</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">2006-12-31</field>
+        </record>
+        <record id="gbp2007EUR" model="currency.currency.rate">
+            <field name="rate">1.4604</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2006-12-31</field>
+        </record>
+        <record id="gbp2007USD" model="currency.currency.rate">
+            <field name="rate">2.0020</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2006-12-31</field>
+        </record>
+	<!-- 2008 -->
+        <record id="gbp2008CAD" model="currency.currency.rate">
+            <field name="rate">2.0725</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">2007-12-31</field>
+        </record>
+        <record id="gbp2008EUR" model="currency.currency.rate">
+            <field name="rate">1.4178</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2007-12-31</field>
+        </record>
+        <record id="gbp2008USD" model="currency.currency.rate">
+            <field name="rate">2.0080</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2007-12-31</field>
+        </record>
+	<!-- 2009 -->
+        <record id="gbp2009CAD" model="currency.currency.rate">
+            <field name="rate">1.7801</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">2008-12-31</field>
+        </record>
+        <record id="gbp2009EUR" model="currency.currency.rate">
+            <field name="rate">1.1235</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2008-12-31</field>
+        </record>
+        <record id="gbp2009USD" model="currency.currency.rate">
+            <field name="rate">1.5633</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2008-12-31</field>
+        </record>
+	<!-- 2010 -->
+        <record id="gbp2010CAD" model="currency.currency.rate">
+            <field name="rate">1.7398</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">2009-12-31</field>
+        </record>
+        <record id="gbp2010EUR" model="currency.currency.rate">
+            <field name="rate">1.1298</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2009-12-31</field>
+        </record>
+        <record id="gbp2010USD" model="currency.currency.rate">
+            <field name="rate">1.5962</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2009-12-31</field>
+        </record>
+	<!-- 2011 -->
+        <record id="gbp2011CAD" model="currency.currency.rate">
+            <field name="rate">1.59426</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">2010-12-31</field>
+        </record>
+        <record id="gbp2011EUR" model="currency.currency.rate">
+            <field name="rate">1.1664</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2010-12-31</field>
+        </record>
+        <record id="gbp2011USD" model="currency.currency.rate">
+            <field name="rate">1.54571</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2010-12-31</field>
+        </record>
+	<!-- 2012 -->
+        <record id="gbp2012EUR" model="currency.currency.rate">
+            <field name="rate">1.1296</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2011-03-31</field>
+        </record>
+        <record id="gbp2012CAD" model="currency.currency.rate">
+            <field name="rate">1.58437</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">2011-12-31</field>
+        </record>
+        <record id="gbp2012EUR" model="currency.currency.rate">
+            <field name="rate">1.15170</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2011-12-31</field>
+        </record>
+        <record id="gbp2012USD" model="currency.currency.rate">
+            <field name="rate">1.60384</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2011-12-31</field>
+        </record>
+	<!-- 2013 -->
+        <record id="gbp2013CAD" model="currency.currency.rate">
+            <field name="rate">1.58360</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'CAD')]"/>
+            <field name="date">2012-12-31</field>
+        </record>
+        <record id="gbp2013EUR" model="currency.currency.rate">
+            <field name="rate">1.23347</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'EUR')]"/>
+            <field name="date">2012-12-31</field>
+        </record>
+        <record id="gbp2013USD" model="currency.currency.rate">
+            <field name="rate">1.58287</field>
+            <field name="currency"
+		   model="currency.currency" search="[('code', '=', 'USD')]"/>
+            <field name="date">2012-12-31</field>
+        </record>
+    </data>
+</tryton>
