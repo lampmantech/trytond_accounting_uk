@@ -31,7 +31,8 @@ These exchange rates should be in trytond_accounting_uk and each chart in
 trytond_chart_uk_<source>, where each chart depends on trytond_accounting_uk.
 
 ** This module sets currency rates for the company assuming that
-the company currency is GBP**
+the company currency is GBP. It assumes that the GBP EUR USD and CAD
+currencies are already defined.**
 
 Medium term, it is likely that the Chart of Taxes (CoT) for VAT and tax
 rules for the UK should also be refactored into this module from the

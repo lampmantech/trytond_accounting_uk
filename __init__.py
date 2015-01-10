@@ -6,7 +6,7 @@
 # consequences resulting from its eventual inadequacies and bugs.
 # End users who are looking for a ready-to-use solution with commercial
 # garantees and support are strongly adviced to contract a Free Software
-# Service Company like Veritos.
+# Service Company.
 #
 # This program is Free Software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -24,4 +24,13 @@
 #
 ##############################################################################
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+from trytond.pool import Pool
+
+
+def register():
+    '''
+        Register classes
+    '''
+    Pool.register(
+        module='account_accounting_uk', type_='model'
+    )

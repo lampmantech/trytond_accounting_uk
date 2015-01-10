@@ -1,10 +1,14 @@
-2015-01-02  lampman Tech  <lampmantech@github.com>
+commit 9e2508fe3107945afc1777e1cce414ac1a07b4c0
+Date:   Fri Jan 2 19:27:48 2015 +0200
 
-	* currency_GBP_hmrc.xml:
-	Average year rates from HMRC; see:
-	http://www.hmrc.gov.uk/exrate/
-        http://www.hmrc.gov.uk/exrate/yearly_rates.htm
-	Copies are in data/
-	
+    Fixed markdown.
 
+commit b2385d8fc13148bbbae24b4ecbc475ca4390932f
+Date:   Fri Jan 2 18:47:51 2015 +0200
 
+    Initial commit.
+
+commit 7dfe569a9b20c542241c759765601e224c4ebbb5
+Date:   Fri Jan 2 18:23:53 2015 +0200
+
+    Initial commit
