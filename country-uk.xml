@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="country.country" id="uk-">
+            <field name="name">United Kingdom</field>
+            <field name="code">UK</field>
+        </record>
+        <record model="country.subdivision" id="uk-eng">
+            <field name="name">England</field>
+            <field name="code">UK-ENG</field>
+            <field name="type">province</field>
+            <field name="country" ref="uk-"/>
+        </record>
+        <record model="country.subdivision" id="uk-sct">
+            <field name="name">Scotland</field>
+            <field name="code">UK-SCT</field>
+            <field name="type">province</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-wls">
+            <field name="name">Wales</field>
+            <field name="code">UK-WLS</field>
+            <field name="type">province</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-nir">
+            <field name="name">Northern Ireland</field>
+            <field name="code">UK-NIR</field>
+            <field name="type">province</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-eaw">
+            <field name="name">England and Wales</field>
+            <field name="code">UK-EAW</field>
+            <field name="type">included for completeness</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-gbn">
+            <field name="name">Great Britain</field>
+            <field name="code">GB-GBN</field>
+            <field name="type">included for completeness</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="gb-ukm">
+            <field name="name">United Kingdom</field>
+            <field name="code">GB-UKM</field>
+            <field name="type">included for completeness</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-bkm">
+            <field name="name">Buckinghamshire</field>
+            <field name="code">UK-BKM</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-cam">
+            <field name="name">Cambridgeshire</field>
+            <field name="code">UK-CAM</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-cma">
+            <field name="name">Cumbria</field>
+            <field name="code">UK-CMA</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-dby">
+            <field name="name">Derbyshire</field>
+            <field name="code">UK-DBY</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-dev">
+            <field name="name">Devon</field>
+            <field name="code">UK-DEV</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-dor">
+            <field name="name">Dorset</field>
+            <field name="code">UK-DOR</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-esx">
+            <field name="name">East Sussex</field>
+            <field name="code">UK-ESX</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-ess">
+            <field name="name">Essex</field>
+            <field name="code">UK-ESS</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-gls">
+            <field name="name">Gloucestershire</field>
+            <field name="code">UK-GLS</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-ham">
+            <field name="name">Hampshire</field>
+            <field name="code">UK-HAM</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-hrt">
+            <field name="name">Hertfordshire</field>
+            <field name="code">UK-HRT</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-ken">
+            <field name="name">Kent</field>
+            <field name="code">UK-KEN</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-lan">
+            <field name="name">Lancashire</field>
+            <field name="code">UK-LAN</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-lec">
+            <field name="name">Leicestershire</field>
+            <field name="code">UK-LEC</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-lin">
+            <field name="name">Lincolnshire</field>
+            <field name="code">UK-LIN</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-nfk">
+            <field name="name">Norfolk</field>
+            <field name="code">UK-NFK</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-nyk">
+            <field name="name">North Yorkshire</field>
+            <field name="code">UK-NYK</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-nth">
+            <field name="name">Northamptonshire</field>
+            <field name="code">UK-NTH</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-ntt">
+            <field name="name">Nottinghamshire</field>
+            <field name="code">UK-NTT</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-oxf">
+            <field name="name">Oxfordshire</field>
+            <field name="code">UK-OXF</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-som">
+            <field name="name">Somerset</field>
+            <field name="code">UK-SOM</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-sts">
+            <field name="name">Staffordshire</field>
+            <field name="code">UK-STS</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-sfk">
+            <field name="name">Suffolk</field>
+            <field name="code">UK-SFK</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-sry">
+            <field name="name">Surrey</field>
+            <field name="code">UK-SRY</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-war">
+            <field name="name">Warwickshire</field>
+            <field name="code">UK-WAR</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-wsx">
+            <field name="name">West Sussex</field>
+            <field name="code">UK-WSX</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+
+        <record model="country.subdivision" id="uk-wor">
+            <field name="name">Worcestershire</field>
+            <field name="code">UK-WOR</field>
+            <field name="type">two-tier county</field>
+            <field name="country" ref="uk-"/>
+        </record>
+    </data>
+</tryton>
